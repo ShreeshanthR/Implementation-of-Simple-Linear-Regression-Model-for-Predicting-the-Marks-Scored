@@ -14,11 +14,12 @@ To write a program to predict the marks scored by a student using the simple lin
 4. Plot the actual data and regression line.
 
 ## Program:
-```
-/*
+```python
+'''
 Program to implement the simple linear regression model for predicting the marks scored.
 Developed by: Shreeshanth R
 RegisterNumber:  212225040411
+'''
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -41,7 +42,6 @@ plt.ylabel("MARKS SCORED")
 plt.title("SIMPLE LINEAR REGRESSION (USING SKLEARN)")
 plt.legend()
 plt.show()
-*/
 ```
 
 ## Output:
