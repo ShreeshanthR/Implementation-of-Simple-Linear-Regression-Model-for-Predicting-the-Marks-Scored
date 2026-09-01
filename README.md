@@ -49,7 +49,7 @@ plt.show()
 
 <img width="797" height="682" alt="ex2 ml graph" src="https://github.com/user-attachments/assets/0620a915-5afc-4091-85ba-df79b958579b" />
 
-<img width="1137" height="215" alt="ex2 ml" src="https://github.com/user-attachments/assets/4976aeec-0fbb-4fd4-9f3f-e2f59f0bb058" />
+<img width="1002" height="126" alt="Screenshot 2026-09-01 195433" src="https://github.com/user-attachments/assets/bf5b172e-0d05-4732-aec3-e1717f2595fc" />
 
 
 ## Result:
