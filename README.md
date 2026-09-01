@@ -8,22 +8,48 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Take input data and create the Linear Regression model.
+2. Train the model using the given X and Y values.
+3. Predict marks for the entered study hours.
+4. Plot the actual data and regression line.
 
 ## Program:
 ```
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: 
-RegisterNumber:  
+Developed by: Shreeshanth R
+RegisterNumber:  212225040411
+
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+X = np.array(eval(input())).reshape(-1,1)
+Y = np.array(eval(input()))
+
+model = LinearRegression()
+model.fit(X,Y)
+
+x_input = float(input("ENTER HOURS STUDIED: "))
+predicted_marks = model.predict([[x_input]])
+print("Predicted Marks: ",predicted_marks[0])
+
+y_pred = model.predict(X)
+plt.scatter(X,Y,label="Actual Data")
+plt.plot(X,y_pred,label="Regression Line")
+plt.xlabel("HOURS STUDIED")
+plt.ylabel("MARKS SCORED")
+plt.title("SIMPLE LINEAR REGRESSION (USING SKLEARN)")
+plt.legend()
+plt.show()
 */
 ```
 
 ## Output:
 ![simple linear regression model for predicting the marks scored](sam.png)
+
+<img width="797" height="682" alt="ex2 ml graph" src="https://github.com/user-attachments/assets/0620a915-5afc-4091-85ba-df79b958579b" />
+
+<img width="1137" height="215" alt="ex2 ml" src="https://github.com/user-attachments/assets/4976aeec-0fbb-4fd4-9f3f-e2f59f0bb058" />
 
 
 ## Result:
